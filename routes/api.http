@@ -1,0 +1,51 @@
+POST  http://127.0.0.1:8000/api/v1/user/api-login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "admin@gmail.com",
+    "password": "12345678"
+}
+
+###
+POST http://127.0.0.1:8000/api/v1/course/store HTTP/1.1
+content-type: application/json
+
+{
+    "email": "myphoto288@gmail.com",
+    "password": "12345678"
+}
+
+###
+
+GET http://127.0.0.1:8000/api/test HTTP/1.1
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5OWQ3MDBlYS00Y2MyLTQ4ZDEtYmRlMC03NGQ0MTUzYjNkNTIiLCJqdGkiOiIwZDk5MTVkYmE5N2Y1MWQ4OWY4NDczZWM3MTg1NWE2YTRmMzRkYjFmZDA0ZmFhM2ZjZDcyZDA2YmJkYjdkM2E2OWM3MjFhZjA0ZDI3YzU5YiIsImlhdCI6MTY5MTQ5MDc2NS43MzEwNDcsIm5iZiI6MTY5MTQ5MDc2NS43MzEwNDksImV4cCI6MTcyMzExMzE2NS43MjYzOCwic3ViIjoiMiIsInNjb3BlcyI6W119.D92vEaoKXiyAl6YdKOxHdMLJXLPUdVcqaHjTsXniaj91DSXgY92DJ1t9G2jVxrsIPiNtr5GHhNj-_CY9Tz2xr9mdQtHw7_-g5AauJMOQ_NAH7bv7z-M0ZUAhJLjR8EqauNyKApGytry3GzO24JhdxCLb5uo1HqqQXy9oI-RcD-8iycMxsDiBnP8qPbvpJCEjWXiTI4u_GQQgibUmGlxkpVhDl4nTjbK548qJkPQAjUCwn9eqla3fnIq2gV1IYvWLxzDc5hpL4-LA4Ip_9fni8K95yxs1s3h6M-2d3mi0JXbPe6a7BKW_0Eo7C1thvLZ17yUT_mGIkPGZUVHx8oSB9VysArrj7vPBYH7ebEGBzmq3wSYSNBcKNm6xwUdyAb_cjl2lF4n05x78R4zS7yY86zfFh5EuXQiS-OlAgK1J8srr4CN5hBWM5E5MvMBLKPN0D-EBGPrTG1xAycy5uWnCD243_FUpGoYS-Wiu02-TLirBBqYPHj25cyHYNATrXb6F_aZBXtGs5GBLuRiIvtV7fd7661L70X3FrogAE7aPjxEgO_H30dkIwX6Ge9F7zfAVnzKWMMDK2lxmnuj_xWZZRHPv36Ko92f5EPnKVAQTtsQdsAc5LSwgE1rHubdDTG2-O27eNOloz5CbfDm6h0to2f0FqRy-IeeQTRkz82sLNXI
+
+###
+
+POST http://report.pro/api/v1/user/api-logout HTTP/1.1
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiODg3NzUxOWU2NjZhNjM4MjkxNjFjYzZhMzFkYjVkYzYwNWRjMzYyNTRiNDQwMGFjNWJkMDRjNDczNDIxMTA2NTQ3YzRlZDRmYWIyNDc5NmEiLCJpYXQiOjE2NDYxMzgzMzUuNzQ1MDkzLCJuYmYiOjE2NDYxMzgzMzUuNzQ1MDk4LCJleHAiOjE2Nzc2NzQzMzUuNzM4NTksInN1YiI6IjIyIiwic2NvcGVzIjpbXX0.ohVJtuPei-kkuHUz_g1dIlqWppTXEr7-Fxa-O7F3Sx5wG54-SfWkBgc4fSRhg6XB-52GZiFj8k5hX4WvBksubVAJenlQ5OjPtoQDVrnWPrmn1E7OCgB15JGaBPE9XRkP46kmtJYL_2iMgCTu01-3Ynax2-YFJRE-V9TZfgHy4sAuT1YEw29zcGMJqBwYX08_RFDuVFCfBsee_XOrbttiXMOBlmx2pJUsQtxoXRAeqGQ4KyRMGIjIZ1G76Vkvf-7jNXbLMoYJx-AOmyd_w5QtWu3r5tB3oqW2d8ZMbGyood6dSc3zDMNw5zD3Dv5UEhtUaaernFpkbe__5mZ3W8bNzg9xMTs7XfuFhih081dTNMLKs39KY9HLc28kEXg4JSyBtmQgwvRGa-wJIWDOHUzkGrfxuJyZ9drVey_iM7H9oRczCDvxZg5eAKSoYtvFgHrTZv7--6hXvxnyMSOdLcOwvFwqaBfYhfBeDiqH4Osst7MxKnTcXYFdFqnghRh1s_TI0wtJPs1KQcQMq584vdfWr1ntWXy6EwDzhFzutQOADvGYn4P_XKRFa9M1hZHaDqnZV83za4tfplvcyu_7v8A9-gLXauNgePsZGYmh3YCJZq2ZP8usppcnZAZPTJ_0LZbPo12l42u1Rs5SVihe07GLNmnJLZBqAE9mu7HcRH1a8cE
+
+###
+
+POST http://127.0.0.1:8006/api/v1/user/get-token?id=3 HTTP/1.1
+
+
+### store data
+# @prompt title enter title
+POST http://127.0.0.1:8000/api/v1/course/store HTTP/1.1
+content-type: application/json
+
+{
+    "dasfs" : "{{title}}"
+}
+
+###
+POST http://127.0.0.1:8000/api/v1/course/soft-delete HTTP/1.1
+content-type: application/json
+
+{
+    "email": "myphoto288@gmail.com",
+    "password": "12345678"
+}
